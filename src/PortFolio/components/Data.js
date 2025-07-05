@@ -3,16 +3,15 @@ import { SiGmail, SiCplusplus, SiPython } from "react-icons/si";
 import { TbBrandCSharp, TbSql, TbBrandReactNative } from "react-icons/tb";
 
 export const languages = [
+    { name: "C++", icon: SiCplusplus },
+    { name: "REACT", icon: FaReact },
+    { name: "PYTHON", icon: SiPython },
     { name: "HTML", icon: FaHtml5 },
     { name: "CSS", icon: FaCss3Alt },
     { name: "JAVASCRIPT", icon: FaJs },
     { name: "JAVA", icon: FaJava },
-    { name: "MS SQL", icon: TbSql },
+    { name: "SQL", icon: TbSql },
     { name: "C#", icon: TbBrandCSharp },
-    { name: "REACT", icon: FaReact },
-    { name: "PYTHON", icon: SiPython },
-
-    { name: "C++", icon: SiCplusplus },
     { name: "REACT NATIVE", icon: TbBrandReactNative },
 ];
 

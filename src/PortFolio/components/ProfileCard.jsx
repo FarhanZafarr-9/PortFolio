@@ -8,10 +8,10 @@ const ProfileCard = ({ isDarkMode, isExpanded, onclick, className }) => {
 
     return (
 
-        <div className={`overflow-hidden flex items-center justify-center ${className} opacity-100`} onClick={() => onclick()} >
+        <div className={`overflow-auto flex items-center justify-center ${className} opacity-100`} onClick={() => onclick()} >
             <img src={isDarkMode ? logo2 : logo}
                 alt="Profile Pic"
-                className={`flex w-[200px] h-[200px] cursor-pointer ${isHover && !isExpanded ? 'scale-105' : 'scale-100'} transition-all duration-300 ease-in-out  ${isDarkMode?'opacity-85':''}`}
+                className={`flex w-[200px] h-[200px] cursor-pointer ${isHover && !isExpanded ? 'scale-105' : 'scale-100'} transition-all duration-300 ease-in-out  ${isDarkMode ? 'opacity-85' : ''}`}
                 onMouseEnter={() => setIsHover(true)}
                 onMouseLeave={() => setIsHover(false)}
 

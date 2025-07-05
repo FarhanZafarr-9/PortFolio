@@ -9,7 +9,7 @@ const ThemeToggle = ({ isDarkMode, setIsDarkMode, onclick }) => {
     return (
         <div className='absolute top-6 right-4 flex justify-center items-center ' onClick={onclick}>
             {/* theme name */}
-            <div className={`${isDarkMode ? 'bg-[#282828] text-[#f0f0f0]' : 'bg-[#dedede] text-[#282828]'} rounded-lg p-2 absolute w-[175%] translate-x-[-100%] border-[0.75px] border-[#55555555]  h-auto cursor-pointer text-sm font-bold flex justify-center items-center ${isHover ? 'scale-100' : 'scale-0'}
+            <div className={`${isDarkMode ? 'bg-[#282828] text-[#f0f0f0]' : 'bg-[#dedede] text-[#282828]'} rounded-lg p-2 absolute w-[175%] translate-x-[-100%] border-[0.75px] border-[#44444444]  h-auto cursor-pointer text-sm font-bold flex justify-center items-center ${isHover ? 'scale-100' : 'scale-0'}
                 transition-all duration-300 ease-in-out`}>
                 {isDarkMode ? 'Dark Mode' : 'Light Mode'}
             </div>

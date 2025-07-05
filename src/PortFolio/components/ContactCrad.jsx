@@ -2,10 +2,10 @@ import React from 'react'
 
 const ContactCrad = ({ className, contacts, onMouseEnter, onMouseLeave }) => {
   return (
-    <div className={`${className} flex flex-col justify-center items-center overflow-hidden
+    <div className={`${className} flex flex-col justify-center items-center overflow-auto
     p-4`} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
 
-      <h1 className={`text-xl font-medium italic items-start flex px-2 mt-2 h-auto w-full border-b-2 pb-2 mb-1 border-[#55555555]`}>
+      <h1 className={`text-xl font-medium italic items-start flex px-2 mt-2 h-auto w-full border-b-2 pb-2 mb-1 border-[#44444444]`}>
         Contact Info:
       </h1>
       <ul className="flex flex-row gap-4 w-full flex-wrap">
